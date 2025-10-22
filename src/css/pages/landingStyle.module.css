@@ -1,11 +1,51 @@
 .container {
   flex: 1;
   /* background-color: #f0f0f0; */
-  padding: 0 100px;
+  padding: 50px 100px 300px 100px;
   position: relative;
 }
 .landingLogo {
   position: absolute;
   right: 0;
   top: 0;
+}
+.landingTextDiv {
+  display: flex;
+  flex-direction: column;
+}
+.text1,
+.text2Div span {
+  font-size: 64px;
+  font-weight: bold;
+}
+.text3Div span {
+  font-size: 32px;
+  color: #d9d9d9;
+  font-weight: 400;
+}
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.aliveText {
+  background: linear-gradient(to right, #00dddd, #0042dd, #00dddd);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientMove 3s ease-in-out infinite alternate;
+}
+
+.text3Div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.text1,
+.makeText {
+  color: #fafafa;
 }
