@@ -4,28 +4,3 @@
   min-height: 100vh;
   background-color: #121212;
 }
-
-.header {
-  background-color: #1e1e1e;
-  height: 80px;
-  padding: 25px 100px;
-  box-sizing: border-box;
-  display: flex;
-  align-items: center;
-}
-.headerLogoDiv {
-  /* background-color: yellow; */
-  /* height: 30px; */
-  display: flex;
-  align-items: center;
-}
-.headerLogoDiv span {
-  font-size: 25px;
-  font-weight: bold;
-}
-.snach {
-  color: #ffffff;
-}
-.it {
-  color: #79ffff;
-}

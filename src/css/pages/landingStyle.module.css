@@ -1,0 +1,11 @@
+.container {
+  flex: 1;
+  /* background-color: #f0f0f0; */
+  padding: 0 100px;
+  position: relative;
+}
+.landingLogo {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
