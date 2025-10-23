@@ -1,8 +1,15 @@
 .container {
   flex: 1;
   /* background-color: #f0f0f0; */
-  padding: 50px 100px 300px 100px;
   position: relative;
+  display: flex;
+  justify-content: center;
+}
+.inner{
+  width:1440px;
+  height:100%;
+  padding: 50px 100px 300px 100px;
+  /* background-color: green; */
 }
 .landingLogo {
   position: absolute;
@@ -36,6 +43,7 @@
   background: linear-gradient(to right, #00dddd, #0042dd, #00dddd);
   background-size: 200% 200%;
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: gradientMove 3s ease-in-out infinite alternate;
 }
@@ -48,4 +56,47 @@
 .text1,
 .makeText {
   color: #fafafa;
+}
+
+.communityDiv{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  z-index: 1;
+}
+.imgDiv{
+  display: flex;
+  /* gap:30px; */
+  justify-content: space-between;
+  z-index: 1;
+}
+.rightImgDiv{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.communityTextDiv{
+  display:flex;
+  flex-direction: column;
+}
+.leftImg{
+  height:1000px;
+  width: 1000px;
+  background-color: blue;
+}
+.img{
+  height:320px;
+  width:320px;
+  background-color: blue;
+}
+.communityTitle{
+  color:#F1F1F1;
+  font-size: 48px;
+  font-weight: bold;
+}
+.communityInfo{
+  color:#D9D9D9;
+  font-size: 24px;
+  font-weight:400px;
+  margin-top:20px;
 }

@@ -9,7 +9,8 @@ export default function Index() {
         alt="landingLogo"
         className={indexStyle.landingLogo}
       />
-      <div className={indexStyle.landingTextDiv}>
+      <div className={indexStyle.inner}>
+        <div className={indexStyle.landingTextDiv}>
         <span className={indexStyle.text1}>당신의 아이디어,</span>
         <div className={indexStyle.text2Div}>
           <span className={indexStyle.aliveText}>살아있는 서비스</span>
@@ -21,6 +22,24 @@ export default function Index() {
           </span>
           <span>당신의 잠재력을 지속적인 발전으로 증명하세요.</span>
         </div>
+      </div>
+      <div className={indexStyle.communityDiv}>
+        <div className={indexStyle.imgDiv}>
+
+          <span className={indexStyle.leftImg}></span>
+
+          <div className={indexStyle.rightImgDiv}>
+            <span className={indexStyle.img}></span>
+            <span className={indexStyle.img}></span>
+            <span className={indexStyle.img}></span>
+          </div>
+        </div>
+        <div className={indexStyle.communityTextDiv}>
+          <span className={indexStyle.communityTitle}>MOMENT</span>
+          <span className={indexStyle.communityTitle}>: 시간관리 커뮤니티</span>
+          <span className={indexStyle.communityInfo}>사용자들의 하루 일과를 공유하고, 서로에게 동기 부여하는 습관 형성 앱 서비스.</span>
+        </div>
+      </div>
       </div>
     </div>
   );
