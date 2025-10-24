@@ -1,5 +1,6 @@
 import indexStyle from "../css/pages/landingStyle.module.css";
 import landingLogo from "../assets/landingLogo.svg";
+import Category from "../components/Category";
 
 export default function Index() {
   return (
@@ -38,43 +39,11 @@ export default function Index() {
             <span className={indexStyle.communityInfo}>사용자들의 하루 일과를 공유하고, 서로에게 동기 부여하는 습관 형성 앱 서비스.</span>
           </div>
         </div>
-        <div className={indexStyle.categoryDiv}>
-          <div className={indexStyle.categoryTitleDiv}>
-            <span className={indexStyle.categoryKorTitle}>테크</span>
-            <span className={indexStyle.categoryEngTitle}>Technology</span>
-          </div>
-          <div className={indexStyle.categoryContent}>
-            <div className={indexStyle.categoryContentItem}>
-              <div className={indexStyle.itemImg}></div>
-              <div className={indexStyle.itemTextDiv}>
-                <span className={indexStyle.itemText}>Code Mate</span>
-                <span className={indexStyle.itemText}>: 개발자 Q&A 챗봇</span>
-                <span className={indexStyle.itemInfo}>초보 개발자들의 자주 묻는 에러에 대해 실시간으로 답변하고 해결책을 제시하는 AI 챗봇 서비스.</span>
-              </div>
-            </div><div className={indexStyle.categoryContentItem}>
-              <div className={indexStyle.itemImg}></div>
-              <div className={indexStyle.itemTextDiv}>
-                <span className={indexStyle.itemText}>Code Mate</span>
-                <span className={indexStyle.itemText}>: 개발자 Q&A 챗봇</span>
-                <span className={indexStyle.itemInfo}>초보 개발자들의 자주 묻는 에러에 대해 실시간으로 답변하고 해결책을 제시하는 AI 챗봇 서비스.</span>
-              </div>
-            </div><div className={indexStyle.categoryContentItem}>
-              <div className={indexStyle.itemImg}></div>
-              <div className={indexStyle.itemTextDiv}>
-                <span className={indexStyle.itemText}>Code Mate</span>
-                <span className={indexStyle.itemText}>: 개발자 Q&A 챗봇</span>
-                <span className={indexStyle.itemInfo}>초보 개발자들의 자주 묻는 에러에 대해 실시간으로 답변하고 해결책을 제시하는 AI 챗봇 서비스.</span>
-              </div>
-            </div><div className={indexStyle.categoryContentItem}>
-              <div className={indexStyle.itemImg}></div>
-              <div className={indexStyle.itemTextDiv}>
-                <span className={indexStyle.itemText}>Code Mate</span>
-                <span className={indexStyle.itemText}>: 개발자 Q&A 챗봇</span>
-                <span className={indexStyle.itemInfo}>초보 개발자들의 자주 묻는 에러에 대해 실시간으로 답변하고 해결책을 제시하는 AI 챗봇 서비스.</span>
-              </div>
-            </div>
-          </div>
-        </div>
+        <Category korText="테크"/>
+        <Category korText="쇼핑"/>
+        <Category korText="소셜"/>
+        <Category korText="금융"/>
+        <Category korText="라이프스타일"/>
       </div>
     </div>
   );
