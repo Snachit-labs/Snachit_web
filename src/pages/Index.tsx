@@ -1,10 +1,12 @@
 import indexStyle from "../css/pages/landingStyle.module.css";
 import landingLogo from "../assets/landingLogo.svg";
 import Category from "../components/Category";
+import MouseTrail from "../MouseTrail";
 
 export default function Index() {
   return (
     <div className={indexStyle.container}>
+      <MouseTrail/>
       <img
         src={landingLogo}
         alt="landingLogo"
