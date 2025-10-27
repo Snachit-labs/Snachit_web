@@ -8,7 +8,7 @@
 .inner {
   width: 1440px;
   height: 100%;
-  padding: 50px 100px 300px 100px;
+  padding: 150px 100px 300px 100px;
   /* background-color: green; */
   position: relative;
   z-index: 10;
@@ -129,4 +129,12 @@
   width: 438px;
   height: 64px;
   padding: 0;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #e0e0e0;
+}
+.btn:active {
+  background-color: #c8c8c8;
+  transform: scale(0.98);
 }

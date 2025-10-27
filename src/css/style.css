@@ -5,3 +5,7 @@ body {
   background-color: #121212;
   overflow-x: hidden;
 }
+ul,
+li {
+  list-style: none;
+}

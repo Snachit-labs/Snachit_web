@@ -1,0 +1,87 @@
+.container {
+  flex: 1;
+  /* background-color: #f0f0f0; */
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.inner {
+  width: 1440px;
+  height: 100%;
+  padding: 150px 100px 300px 100px;
+  /* background-color: green; */
+  position: relative;
+  z-index: 10;
+}
+.topDiv {
+  display: flex;
+  flex-direction: column;
+}
+.category {
+  display: flex;
+}
+.korText {
+  font-size: 20px;
+  color: #e1e7e7;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.engText {
+  font-size: 20px;
+  color: #a1a7a7;
+  font-weight: 300;
+}
+.titleDiv {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.titleDiv span {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+.info {
+  font-size: 24px;
+  color: #f2f6f6;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.itemL,
+.itemR {
+  background-color: #171a1a;
+  display: flex;
+}
+.bgTexture {
+  width: 830px;
+  height: 560px;
+}
+.itemL {
+  justify-content: flex-end;
+}
+.textDiv {
+  /* background-color: red; */
+  padding: 50px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.textTitle {
+  font-size: 30px;
+  font-weight: bold;
+  color: #f2f6f6;
+}
+.textContent {
+  font-size: 20px;
+  font-weight: 400;
+  color: #e1e7e7;
+  margin-top: 20px;
+  line-height: 2;
+}
+.contentDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+  margin-top: 200px;
+}
