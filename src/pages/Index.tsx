@@ -24,7 +24,11 @@ export default function Index() {
             <span>당신의 잠재력을 지속적인 발전으로 증명하세요.</span>
           </div>
         </div>
-        <div className={indexStyle.communityDiv}>
+        <div className={indexStyle.btnDiv}>
+          <button className={indexStyle.btn}>당신의 IT 프로젝트, 가치 100배 키우기</button>
+
+        </div>
+        {/* <div className={indexStyle.communityDiv}>
           <div className={indexStyle.imgDiv}>
             <span className={indexStyle.leftImg}></span>
             <div className={indexStyle.rightImgDiv}>
@@ -38,7 +42,7 @@ export default function Index() {
             <span className={indexStyle.communityTitle}>: 시간관리 커뮤니티</span>
             <span className={indexStyle.communityInfo}>사용자들의 하루 일과를 공유하고, 서로에게 동기 부여하는 습관 형성 앱 서비스.</span>
           </div>
-        </div>
+        </div> */}
         <Category korText="테크"/>
         <Category korText="쇼핑"/>
         <Category korText="소셜"/>

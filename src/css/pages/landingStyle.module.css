@@ -19,6 +19,9 @@
 .landingTextDiv {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  position:relative;
+  z-index: 1;
 }
 .text1,
 .text2Div span {
@@ -27,7 +30,7 @@
 }
 .text3Div span {
   font-size: 32px;
-  color: #d9d9d9;
+  color: #F2F6F6;
   font-weight: 400;
 }
 @keyframes gradientMove {
@@ -51,7 +54,8 @@
 .text3Div {
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
+  margin-top: 30px;
+  align-items: center;
 }
 .text1,
 .makeText {
@@ -105,4 +109,22 @@
   margin-top:20px;
 }
 
-
+.btnDiv{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  margin-top:40px;
+  position: relative;
+  z-index: 10;
+}
+.btn{
+  background-color: #FFFFFF;
+  font-size: 22px;
+  font-weight: bold;
+  border:none;
+  border-radius: 12px;
+  color:#171A1A;
+  width:438px;
+  height:64px;
+  padding:0;
+}
