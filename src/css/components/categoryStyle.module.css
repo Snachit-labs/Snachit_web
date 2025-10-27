@@ -31,7 +31,12 @@
   display: flex;
   flex-direction: column;
   width: 20%;
+  cursor: pointer;
   /* background-color: #00000066; */
+}
+.categoryContentItem:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
 }
 .itemImg {
   /* height: 330px;
