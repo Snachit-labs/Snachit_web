@@ -1,0 +1,140 @@
+.container {
+  flex: 1;
+  /* background-color: #f0f0f0; */
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.inner {
+  width: 1440px;
+  height: 100%;
+  padding: 150px 100px 300px 100px;
+  /* background-color: green; */
+  position: relative;
+  z-index: 10;
+}
+.landingLogo {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.landingTextDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+.text1,
+.text2Div span {
+  font-size: 64px;
+  font-weight: bold;
+}
+.text3Div span {
+  font-size: 32px;
+  color: #f2f6f6;
+  font-weight: 400;
+}
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.aliveText {
+  background: linear-gradient(to right, #00dddd, #0042dd, #00dddd);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientMove 3s ease-in-out infinite alternate;
+}
+
+.text3Div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  align-items: center;
+}
+.text1,
+.makeText {
+  color: #fafafa;
+}
+
+.communityDiv {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  z-index: 1;
+  margin-top: 100px;
+}
+.imgDiv {
+  display: flex;
+  /* gap:30px; */
+  justify-content: space-between;
+  z-index: 1;
+}
+.rightImgDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.communityTextDiv {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.leftImg {
+  height: 1050px;
+  width: 1050px;
+  background-color: #00000066;
+  border-radius: 30px;
+}
+.img {
+  height: 330px;
+  width: 330px;
+  background-color: #00000066;
+  border-radius: 30px;
+}
+.communityTitle {
+  color: #f1f1f1;
+  font-size: 48px;
+  font-weight: bold;
+}
+.communityInfo {
+  color: #d9d9d9;
+  font-size: 24px;
+  font-weight: 400px;
+  margin-top: 20px;
+}
+
+.btnDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  position: relative;
+  z-index: 10;
+}
+.btn {
+  background-color: #ffffff;
+  font-size: 22px;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  color: #171a1a;
+  width: 438px;
+  height: 64px;
+  padding: 0;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #e0e0e0;
+}
+.btn:active {
+  background-color: #c8c8c8;
+  transform: scale(0.98);
+}

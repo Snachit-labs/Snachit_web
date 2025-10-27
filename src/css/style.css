@@ -1,0 +1,11 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  overflow-x: hidden;
+}
+ul,
+li {
+  list-style: none;
+}
